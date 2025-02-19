@@ -6,11 +6,42 @@ on:
 name: Quarto Publish
 
 jobs:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: '4.4.2'  # Specify the required R version
+
+    - name: Install Quarto
+      run: |
+        wget https://quarto.org/download/latest/quarto-linux-amd64.deb
+        sudo dpkg -i quarto-linux-amd64.deb
+        quarto check install
+
+    - name: Quarto Publish
+      run: |
+        Rscript -e "install.packages('quarto')"
+        quarto publish
+
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
+      - uses: actions/checkout@v2
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.4.2'  # Specify the required R version
+
       - name: Check out repository
         uses: actions/checkout@v4
 
