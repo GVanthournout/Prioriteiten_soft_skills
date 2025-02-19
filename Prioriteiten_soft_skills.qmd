@@ -7,6 +7,7 @@ author:
   - "Siham Chaoui"
   - "Michiel Wellens"
   - "Heidi Nevelsteen"
+  - "Stefaan Hendrickx"
 date: today
 title-block-banner: "#6b8ea4"
 format:
@@ -18,6 +19,10 @@ format:
     font-size: smaller
     linestretch: 1.2
     code-line-numbers: true
+    embed-resources: true
+    
+Rendering:
+  embed-resources: true
 
 logo: "AP_logo_letters_rgb.png"  
 ---
