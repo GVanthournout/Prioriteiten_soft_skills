@@ -1,11 +1,11 @@
 
 # Loading data
-library(haven)
+#library(haven)
 library(readxl)
 library(here)
-library(tinytex)
+#library(tinytex)
 #library(Microsoft365R)
-library(gfonts)
+#library(gfonts)
 
 # load windows fonts
 #library(extrafont)
@@ -16,25 +16,25 @@ library(gfonts)
 library ("tidyverse")
 
 # Datamanagement
-library("fuzzyjoin")
-library(stringr)
-library(countrycode)
+#library("fuzzyjoin")
+#library(stringr)
+#library(countrycode)
 library ("tidyr")
 library ("data.table")
-library ("broom")
+#library ("broom")
 library(glue)
 
 # Inhoudelijke analyses
 
 ## Factor analyses
-library ("lavaan")
-library ("semTools")
-library("lavaanExtra")
-library("GPArotation")
+#library ("lavaan")
+#library ("semTools")
+#library("lavaanExtra")
+#library("GPArotation")
 
 ## cluster en LPA
-library ("tidyLPA")
-library(NbClust)
+#library ("tidyLPA")
+#library(NbClust)
 
 
 ## inferentiële statistieken
@@ -42,27 +42,27 @@ library ("psych")
 library ("car")
 library ("fields")
 library ("moments")
-library("effectsize")
+#library("effectsize")
 library(scales)
 library(rstatix)
-library (nlme) # multilevel analyses
-library(lme4)
-library(Matrix)
-library(merTools)
+#library (nlme) # multilevel analyses
+#library(lme4)
+#library(Matrix)
+#library(merTools)
 
 
 ## Rapportage
 
 ## Tabellen
 
-library(sjtable2df)
+#library(sjtable2df)
 
 ### Kable
-library(kableExtra)
+#library(kableExtra)
 
 ### flextable
-library(flextable)
-library(sjmisc)
+#library(flextable)
+#library(sjmisc)
 
 ### gt
 library (gt)
@@ -82,8 +82,8 @@ library("corrplot")
 library("ggcorrplot")
 
 ### Layout
-library(RColorBrewer)
-library (monochromeR)
+#library(RColorBrewer)
+#library (monochromeR)
 
 ## Export
 library("kutils")

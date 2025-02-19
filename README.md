@@ -1,0 +1,1 @@
+Report on a smale scale study in which we investigated which soft skills trainees perceived as most important in a team leader.
