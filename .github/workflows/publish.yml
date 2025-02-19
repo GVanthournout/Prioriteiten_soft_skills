@@ -6,9 +6,6 @@ on:
 name: Quarto Publish
 
 jobs:
-
-
-jobs:
   build:
     runs-on: ubuntu-latest
 
