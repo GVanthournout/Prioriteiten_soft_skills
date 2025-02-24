@@ -2,7 +2,7 @@
 title: "Welke soft skills zijn belangrijk voor operationeel leidinggevenden?"
 subtitle: "Verkennend onderzoek bij cursisten van het veiligheidsinstituut aan de AP Hogeschool"
 author: 
-  - "Vanthournout Gert"
+  - "Gert Vanthournout"
   - "Ellen de Bruyne"
   - "Siham Chaoui"
   - "Michiel Wellens"
@@ -183,19 +183,21 @@ Kleuren_num <-  c("2020-2021" = "aquamarine3","2021-2022" = "#6b8ea4", "2022-202
 
 # Situering
 
-De Veiligheid, gezondheid en milieu Checklist Aannemers (VCA) is een lijst met aandachtspunten en werkmethoden op het gebied van veiligheid en gezondheid. De VCA helpt werknemers en operationeel leidinggevenden in een risicovolle werkomgeving om veiliger en gezonder hun werk te doen. Via een VCA-certificaat laten werknemers en operationeel leidinggevenden aan opdrachtgevers zien dat ze zich bewust zijn van de risico's die ze lopen tijdens hun werk. Er bestaat een aparte certificering voor werknemers (VCA Basis) en voor operationeel leidinggevenden (VCA VOL).
+De Veiligheid, gezondheid en milieu Checklist Aannemers (VCA) is een lijst met aandachtspunten en werkmethoden op het gebied van veiligheid en gezondheid. De VCA helpt werknemers en operationeel leidinggevenden in een risicovolle werkomgeving om veiliger en gezonder hun werk te doen. Via een VCA-certificaat tonen bedrijven, leidinggevenden en werknemers aan opdrachtgevers dat ze zich bewust zijn van de risico's die ze lopen tijdens hun werk én dat ze gepaste preventiemaatregelen kunnen nemen. Er bestaat een aparte certificering voor werknemers (VCA Basis) en voor operationeel leidinggevenden (VCA VOL).
 
 In Vlaanderen organiseert Contractor Safety Management vzw de VCA-certificering. De organisatie is zich bewust van een belangrijke leemte in de huidige opleidingen: ze zetten sterk in op vaktechnische kennis, maar ze besteden onvoldoende aandacht aan de soft skills die essentieel zijn voor een veilige werkomgeving.
 
-In het project ***Veiligheid en leiderschap: Soft Skills voor operationeel leidinggevenden*** ontwikkelen het [Veiligheidsinstituut](https://www.ap.be/expertise/veiligheidsinstituut) (VI) en het [Kenniscentrum Onderzoek Levenslang Leren en Innoveren](https://www.ap.be/expertise/veiligheidsinstituut) (OLLI) van de AP Hogeschool samen een meetinstrument om soft skills bij operationeel leidinggevenden in kaart te brengen. Ze baseren zich daarvoor op het bestaande instrument [Kickstart Your Soft Skills](https://kickstart.goleweb.be/nl/node/3619) (KYSS). Het is belangrijk dat het instrument de belangrijkste soft skills in kaart brengt en dit op een spaarzame manier doet.
+In het project ***Veiligheid en leiderschap: Soft Skills voor operationeel leidinggevenden*** ontwikkelen het [Veiligheidsinstituut](https://www.ap.be/expertise/veiligheidsinstituut) (VI) en het [Kenniscentrum Onderzoek Levenslang Leren en Innoveren](https://www.ap.be/expertise/veiligheidsinstituut) (OLLI) van de AP Hogeschool samen een meetinstrument om soft skills bij operationeel leidinggevenden in kaart te brengen. Ze baseren zich daarvoor op het bestaande instrument [Kickstart Your Soft Skills](https://kickstart.goleweb.be/nl/node/3619) (KYSS). Het KYSS instrument vraagt werknemers zichzelf in te schatten op zestien soft skills. Het geeft werknemers ook feedback zodat ze zich verder kunnen ontwikkelen. OLLI, VDAB en Groep Intro ontwikkelden het instrument tussen 2018 en 2020 via een ESF-project. Nadien breidde OLLI de vragenlijst met dertien extra skills uit in opdracht van VDAB.
+
+Het KYSS-instrument biedt een goed vertrekpunt, maar bevraagt soft skills los van een specifieke context. Door het instrument verder te concretiseren naar operationeel leidinggeven in de context van veiligheid en risicovolle werkomgevingen, kan het instrument een meer genuanceerde analyse maken. Maar dan is het wel belangrijk dat het de belangrijkste soft skills in deze context in kaart brengt.
 
 # Opzet
 
-Om een idee te krijgen van welke soft skills het werkveld relevant vindt bij operationeel leidinggevenden organiseerden OLLI en VI een bevraging bij cursisten van het veiligheidsinstituut. Daarbij werd deelnemers gevraagd om:
+Om een idee te krijgen van welke soft skills het werkveld belangijk vindt bij operationeel leidinggevenden in de context van veiligheid en werken in een risicovolle werkomgeving, organiseerden OLLI en VI een bevraging bij cursisten van het veiligheidsinstituut. Daarbij vroegen we deelnemers om:
 
-1.  Voor 12 soft skills (Tabel 1) aan te geven in welke mate ze deze belangrijk vinden.
+1.  Voor twaalf soft skills (Tabel 1) aan te geven in welke mate ze deze belangrijk vinden.
 
-2.  10 Soft skills te rangschikken van belangrijk naar minder belangrijk.
+2.  Tien Soft skills te rangschikken van belangrijk naar minder belangrijk.
 
 3.  Aan te geven of er volgens hen nog cruciale soft skills voor leidinggevenden ontbraken in onze opsomming van 12 soft skills (Tabel 1).
 
@@ -205,7 +207,7 @@ Het huidige rapport analyseert de resultaten van deze bevraging.
 
 # Overzicht soft skills
 
-Tabel 1 geeft een overzicht van de 12 soft skills die we in dit onderzoek opnamen.
+Tabel 1 geeft een overzicht van de twaalf soft skills die we in dit onderzoek bevroegen.
 
 ```{r}
 #| label: Description soft skills
@@ -219,7 +221,7 @@ gt(Omschrijving) |>
 
 # Respondentkenmerken
 
-`r nrow(Data_start)` cursisten vulden de bevraging in. Tabellen 2 tot 5 geven een overzicht van kenmerken van de deelnemers. Uit Tabel 2 leiden we af dat 60% van de respondenten de functie van preventieadviseur heeft. Tabel 3 en Tabel 4 tonen ons dat onze respondentgroep een goede spreiding heeft inzake werkervaring en leeftijd. Volgens Tabel 5, ten slotte, maken mannen het grootste deel van onze steekproef uit.
+In totaal vulden `r nrow(Data_start)` cursisten de bevraging in. Tabellen 2 t/m 5 tonen de kenmerken van de deelnemers. Uit Tabel 2 blijkt dat 60% van de respondenten de functie van preventieadviseur heeft. Tabel 3 en Tabel 4 tonen dat onze respondenten gelijkmatig verdeeld zijn over de verschillende categorieën voor werkervaring en leeftijd. Tabel 5laat zien dat mannen het grootste deel van onze steekproef vormen.
 
 ```{r}
 #| label: Select relevant data for function
@@ -278,19 +280,17 @@ gt(tabel_geslacht) |>
 
 # Belangrijkheid soft skills
 
-We vroegen deelnemers om voor de twaalf soft skills uit Tabel 1 aan te geven in welke mate deze belangrijk zijn voor operationeel leidinggevenden. Daartoe scoorden respondenten deze soft skills op een Likert schaal met 5 antwoordmogelijkheden. De schaal liep van *Helemaal niet belangrijk* tot *Heel belangrijk* met Neutraal als *middelpunt*. We visualiseerden de resultaten van deze oefening via beschrijvende statistieken en via diverging barplots.
+We vroegen deelnemers om voor de twaalf soft skills uit Tabel 1 aan te geven in welke mate deze belangrijk zijn voor operationeel leidinggevenden. Daartoe scoorden respondenten deze soft skills op een vijf puntenschaal (0= Helemaal niet belangrijk, 4 = Heel belangrijk).  We analyseerden de resultaten via *beschrijvende statistieken* en via *diverging barplots*.
 
 ## Beschrijvende statistieken
 
-Bij de beschrijvende statistieken komen we via het *gemiddelde* iets te weten over welke soft skills cursisten het belangrijkst vinden. Op onze schaal met vijf antwoord mogelijkheden situeert het gemiddelde zich tussen 0 en 4. Voor het gemak sorteerden we Tabel 6 volgens gemiddelde van hoog naar laag. De soft skills bovenaan in de tabel worden dus belangrijker ingeschat dan die onderaan in de tabel. De *standaarddeviatie* geeft ons informatie over de mate waarin deelnemers onderling van mening verschillen. Hoe hoger de standaarddeviatie, hoe meer cursisten het met elkaar oneens zijn over het belang van een specifieke soft skill.
+Het *gemiddelde* toont welke soft skills respondenten het belangrijkst vinden. De scores variëren tussen 0 en 4. In Tabel 6 zijn de vaardigheden van hoog naar laag gesorteerd op gemiddelde score. Bovenaan staan soft skills die belangrijker worden ingeschat dan die onderaan. De *standaarddeviatie* geeft de mate van meningsverschil aan: hoe hoger de waarde, hoe groter de verdeeldheid.
 
-We zien dat cursisten Voorbeeld gedrag stellen, Communiceren, Coachen en Zich bewust zijn van de situatie als belangrijkste skills identificeren. Voorbeeldgedrag stellen en Coachen hebben bovendien de kleinste standaarddeviatie, wat betekent dat cursisten het ook het het meest met elkaar eens zijn over het belang van deze soft skills.
-
-We observeren dat cursisten Zich flexibel opstellen, Omgaan met diversiteit en Zelfstandig werken als de minst belangrijke soft skills bestempelen voor operationeel leidinggevenden. Met een gemiddelde van 3 of meer kunnen we echter niet stellen dat cursisten deze skills als onbelangrijk beschouwen. Wat wel opvalt is de grotere standaarddeviatie bij deze skills: cursisten zijn het onderling minder eens over het belang van deze skills.
+Respondenten beschouwen Voorbeeldgedrag stellen, Communiceren, Coachen en Situationeel bewustzijn als de belangrijkste vaardigheden. Voorbeeldgedrag stellen en Coachen vertonen bovendien de kleinste standaarddeviatie, wat wijst op brede consensus. 
+Daarentegen scoren Flexibiliteit, Omgaan met diversiteit en Zelfstandig werken lager, hoewel hun gemiddelden nog steeds boven de 3 liggen. De hogere standaarddeviaties bij deze skills duiden op uiteenlopende meningen.
 
 ```{r}
 #| label: descriptives soft skills
-#| include: false
 #| echo: false
 #| warning: false
 #| error: false
@@ -430,11 +430,12 @@ Data_meerkeuze_long |>
 
 ## Diverging barplot
 
-*Diverging barplots* (Figuur 1) visualiseren voor elke soft skill het percentage cursisten dat een specifieke antwoordoptie koos. De grafiek groepeert de positieve antwoordopties in blauwtinten links van een denkbeeldige verticale as en minder positieve antwoordopties in grijs en oranje rechts van die as. Omdat geen enkel cursist tijdens de bevraging het antwoord 'Helemaal niet belangrijk' koos, labelden we de opties Neutraal en Niet belangrijk als minder positief. De opties Belangrijk en Heel belangrijk vormen samen de positieve antwoordopties
+*Divirging barplots* (Figuur 1) visualiseren per soft skill het percentage respondenten per antwoordoptie. Positieve antwoordopties (‘Belangrijk’ en ‘Heel belangrijk’) worden links van een denkbeeldige verticale as weergegeven in blauwtinten; minder positieve antwoordopties (‘Neutraal’ en ‘Niet belangrijk’) staan rechts in grijs en oranje. Niemand koos voor ‘Helemaal niet belangrijk.’
 
-Uit Figuur 1 leiden we af dat Coachen de enige soft skill is die unaniem positief wordt beoordeeld. Voor Voorbeeldgedrag stellen is er slechts een kleine groep respondenten (2%) die de skill als neutraal beoordeelt. Zelfstandig werken is de skill waarvoor cursisten het minst de antwoordoptie Heel belangrijk en het meest de optie Niet belangrijk Kiezen. Het is opvallend dat bijna 30% van de respondenten neutraal staan tegenover Plannen en organiseren als skill voor leidinggevenden.
+Coachen wordt unaniem positief beoordeeld (Figuur 1). Slechts 2% beoordeelt Voorbeeldgedrag stellen als neutraal. Zelfstandig werken krijgt de minste ‘Heel belangrijk’-scores en de meeste ‘Niet belangrijk’-stemmen. Opvallend is dat bijna 30% neutraal staat tegenover Plannen en organiseren als skill voor operationeel leidinggevenden.
 
-Algemeen genomen wijst Figuur 1 opnieuw op het belang van Coachen, Communiceren, Voorbeeldgedrag stellen en Zich bewust zijn van de situatie als voornaamste skills voor operationeel leidinggevenden.
+Figuur 1 bevestigt het belang van Coachen, Communiceren, Voorbeeldgedrag stellen en situationeel bewustzijn als belangrijkste skills voor operationeel leidinggevenden.
+
 
 ```{r}
 #| label: data wrangling diverging barchart soft skills
@@ -496,7 +497,7 @@ Diverging_volgorde %>%
                     )) + 
   labs(title = "Hoe belangrijk ervaren cursisten specifieke soft skills?",
        x = NULL,
-       fill = NULL) +
+       fill = NULL, caption = "Figuur 1: Diverging barplot belangrijkheid soft skills") +
   theme_minimal() +
   theme(plot.title.position = "plot",
     axis.text.x = element_blank(),
@@ -504,20 +505,22 @@ Diverging_volgorde %>%
         panel.grid = element_blank(),
         axis.text.y = element_text(colour = "#68676c",  size = 10),
         title = element_text(colour = "#68676c", face = "bold", size = 12),
-        legend.position = "top")
+        legend.position = "top",
+        plot.caption = element_text(hjust = 0)
+    )
 
 
 ```
 
 # Ranking van soft skills
 
-Via de eerste oefening scoorden cursisten het belang van 12 soft skills voor de rol van operationeel leidinggevenden. Cursisten hoefden bij deze oefening geen rekening te houden met een rangschikking tussen soft skills. Ze konden, als ze dat wilden, soft skills als even belangrijk beschouwen en hen een zelfde score geven. In deze vervolg oefening vroegen we cursisten wel kleur te bekennen en 10 soft skills te sorteren volgens hun belang voor de rol van operationeel leidinggevenden. Deelnemers prioriteerden soft skills van meest belangrijk (1) tot minst belangrijk (10). Via *rangschikkingscores* en via een *stacked barplot* krijgen we inzicht in de rangorde die cursisten aan de soft skills gaven.
+In de eerste oefening scoorden cursisten het belang van 12 soft skills voor de rol van operationeel leidinggevenden. Cursisten hoefden bij deze oefening geen rekening te houden met een rangschikking tussen soft skills. In de vervolgoefening moesten ze een duidelijke rangorde aangeven.  Deelnemers rangschikten tien soft skills van meest belangrijk (1) tot minst belangrijk (10). Via *rangschikkingscores* en via een *stacked barplot* krijgen we inzicht in de rangorde die cursisten aan de soft skills gaven.
 
 ## Rangschikkingscores
 
-We maakten voor elke soft skill de som van de scores die alle deelnemers gaven. Bij deze *rangschikkingscore* geldt een lagere score als een teken van een hogere rangschikking. Voor het gemak rangschikten we de gegevens in Tabel 7 van belangrijk naar minder belangrijk. Soft skills met scores die in elkaars buurt liggen, zoals Samenwerken (219) en Team aansturen (222) kunnen we beschouwen als even belangrijk.
+We maakten voor elke soft skill de som van de scores die alle deelnemers gaven. Een lagere *rangschikkingsscore* duidt op een hogere positie in de rangschikkingslijst. Voor het gemak rangschikten we de gegevens in Tabel 7 van belangrijk naar minder belangrijk. Soft skills met scores die in elkaars buurt liggen, zoals Samenwerken (219) en Team aansturen (222) kunnen we beschouwen als even belangrijk.
 
-Uit de bevraging blijkt dat de soft skills Communiceren, Zich bewust zijn van de situatie en Voorbeeldgedrag stellen de top 3 uitmaken, waarbij Communiceren er als belangrijkste skill uitspringt. Communiceren heeft een duidelijk lagere score dan de andere twee skills in de Top 3.
+Uit de bevraging blijkt dat de soft skills Communiceren, Situationeel bewustzijn en Voorbeeldgedrag stellen de top 3 uitmaken.Communiceren steekt daar met een duidelijk lagere rangschikkingsscore bovenuit. 
 
 Onderaan rangschikken cursisten Omgaan met diversiteit en Zelfstandigheid als minst belangrijke skills voor operationeel leidinggevenden.
 
@@ -564,9 +567,9 @@ gt(Rangschikking_soft_skills) |>
 
 ## Stacked barplot
 
-Een rangschikkingscore alleen geeft geen duidelijk beeld over de mate waarin cursisten verschillen in hun rangschikking. Een stacked barplot kan ons hierbij helpen. Die visualiseert het percentage cursisten dat een specifieke ranking aan een soft skill geeft. De som van alle balken komt zo op 100% uit. De blauwe balken samen geven het percentage cursisten weer dat een skill in zijn of haar top 3 van belangrijkste skills plaatst. De oranje balken samen tonen het aandeel cursisten dat een skill in haar of zijn top 3 van minst belangrijke skills opnam.
+Een rangschikkingscore alleen geeft geen duidelijk beeld over de mate waarin cursisten verschillen in hun rangschikking. Een *stacked barplot* kan ons hierbij helpen. Die visualiseert het percentage cursisten dat een specifieke ranking aan een soft skill geeft. De som van alle balken komt zo op 100% uit. De blauwe balken samen geven het percentage cursisten weer dat een skill in zijn of haar top 3 van belangrijkste skills plaatst. De oranje balken samen tonen het aandeel cursisten dat een skill in haar of zijn top 3 van minst belangrijke skills opnam.
 
-De resultaten tonen dat 1 op 4 cursisten Voorbeeld gedrag stellen als belangrijkste skill identificeerden voor operationeel leidinggevenden. Niet minder dan 70% van de cursisten nam communiceren op in zijn of haar top 3. Voor voorbeeldgedrag stellen is dit 58%. 54% van de cursisten nam Situationeel bewustzijn op in de Top 3.
+De resultaten tonen dat 1 op 4 cursisten Voorbeeld gedrag stellen als belangrijkste skill identificeerden voor operationeel leidinggevenden. Communiceren springt eruit: 70% plaatst deze skill in de top drie. Voorbeeldgedrag stellen en Situationeel bewustzijn volgen met respectievelijk 58% en 54%.
 
 Onderaan observeren we dat cursisten Zelfstandigheid het vaakst als minst belangrijke skill naar voor schuiven (35%) en dat de skill ook bij 70% in de top 3 van minst belangrijke skills staat. In mindere mate zien we een zelfde trend voor Omgaan met diversiteit (28% en 58%).
 
@@ -615,8 +618,9 @@ ggplot(Tabel_rangschikking, aes(x = Percentage, y = reorder(Skill, desc(Rangschi
     legend.text.position = "top",
     legend.position = "top",
     legend.box = "horizontal",
+    plot.caption = element_text(hjust = 0)
   ) +
-  labs(title ="Welke skills vinden cursisten belangrijk?") +
+  labs(title ="Welke skills vinden cursisten belangrijk?", caption = "Figuur 2: Stacked barplot prioriteiten soft skills") +
   guides(fill = guide_legend(nrow = 1, reverse = TRUE))
   
 
@@ -640,10 +644,10 @@ Data_achtergrond |>
   tab_caption(caption = md("**Tabel 8:** Overzicht suggesties soft skills"))
 ```
 
-Er komen minstens twee skills meermaals voor bij de suggesties van cursisten. Een eerste skill heeft te maken met *Vragen en geven van feedback*. De suggesties van cursisten tonen aan dat deze skill onvoldoende vervat zit in skills als coachen, communiceren of Samenwerken en apart aan bod moet komen. Daarnaast komt ook de skill *Empathy of Inlevingsvermogen* als suggestie aan bod. deze skill benadrukt de sociaal-emotionele vaardigheden die een operationeel leidinggevende volgens cursisten dient te bezitten.
+Er komen minstens twee skills meermaals voor bij de suggesties van cursisten. Een eerste skill heeft te maken met *Vragen en geven van feedback*. De suggesties van cursisten tonen aan dat deze skill onvoldoende vervat zit in skills als coachen, communiceren of Samenwerken en apart aan bod moet komen. Daarnaast komt ook de skill *Empathy of Inlevingsvermogen* als suggestie aan bod. Deze skill benadrukt de sociaal-emotionele vaardigheden die een operationeel leidinggevende volgens cursisten dient te bezitten.
 
 # Conclusies
 
-We voerden een verkennend onderzoek uit bij `r nrow(Data_start)` cursisten van het veilgheidsinstituut en we vroegen hen naar het belang van verschillende soft skills in de rol van operationeel leidinggevenden. Uit de bevraging blijkt dat cursisten het cruciaal vinden dat operationeel leidinggevenden in staat zijn om te communiceren en voorbeeldgedrag te stellen. Daarnaast moeten operationeel leidinggevenden zich bewust te zijn van hun omgeving zodat ze pro-actief op risico's kunnen inspelen. Cursisten oordeelden dat de 12 soft skills in onze bevraging allemaal hun belang hadden. Het minst belangrijk vonden ze dat operationeel leidinggevenden konden omgaan met diversiteit en dat ze zelfstandig kunnen werken. Naast de skills die reeds deel uitmaakten van de bevraging vestigden cursisten de aandacht op twee extra vaardigheden: Feedback geven en zich empathisch kunnen inleven.
+We voerden een verkennend onderzoek uit bij `r nrow(Data_start)` cursisten van het Veiligheidsinstituut en we vroegen hen naar het belang van verschillende soft skills in de rol van operationeel leidinggevenden. Uit de bevraging blijkt dat cursisten het cruciaal vinden dat operationeel leidinggevenden in staat zijn om te communiceren en voorbeeldgedrag te stellen. Daarnaast moeten operationeel leidinggevenden zich bewust zijn van hun omgeving zodat ze pro-actief op risico's kunnen inspelen. Cursisten beoordeelden alle twaalf soft skills in onze bevraging als relevant. De vaardigheden die het minst belangrijk werden geacht, waren het omgaan met diversiteit en het zelfstandig kunnen werken. Naast de skills die reeds deel uitmaakten van de bevraging vestigden cursisten de aandacht op twee extra vaardigheden: Feedback geven en zich Empathisch kunnen inleven.
 
-Onderzoekers bij OLLI en het VI zullen de gegevens uit deze bevraging gebruiken om te beslissen welke soft skills ze zullen opnemen in het meetinstrument dat ze ontwikkelen in het kader van de cursus VCA voor operationeel leidinggevenden. De volgende grote stappen in dit project zijn het ontwikkelen van het daadwerkelijke meetinstrument en het testen van het meetinstrument bij operationeel leidinggevenden.
+Onderzoekers bij OLLI en het VI zullen de gegevens uit deze bevraging gebruiken om te beslissen welke soft skills ze zullen opnemen in het meetinstrument dat ze ontwikkelen in het kader van de cursus VCA voor operationeel leidinggevenden. De volgende stappen in dit project zijn het ontwikkelen van het daadwerkelijke meetinstrument en het testen ervan bij operationeel leidinggevenden.
